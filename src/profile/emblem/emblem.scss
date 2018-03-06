@@ -1,0 +1,41 @@
+.emblem-container {
+    margin: 8px auto;
+    display: block;
+
+    .emblem {
+        position: relative;
+        
+        display: inline-block;
+    
+        .class-type {
+            position: absolute;
+            top: 12px;
+            left: 96px;
+        }
+    
+        .race-type {
+            position: absolute;
+            top: 54px;
+            left: 96px;
+            opacity: 0.5;
+        }
+    
+        .light {
+            position: absolute;
+            top: 0px;
+            right: 12px;
+    
+            h1 {
+                font-size: 3rem;
+                color: #F4D36C;
+            }
+        }
+    
+        .level {
+            position: absolute;
+            top: 54px;
+            right: 12px;
+        }
+    }
+}
+
